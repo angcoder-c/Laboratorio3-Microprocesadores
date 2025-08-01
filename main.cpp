@@ -147,7 +147,7 @@ int main() {
     char inmenu = 'x';
 
     while (inmenu != '0') {
-        cout << "MENU\n(1) Evaluar operacion\n(0) Salir\n>>>  ";
+        cout << "\nMENU\n(1) Evaluar operacion\n(0) Salir\n>>>  ";
         cin >> inmenu;
         cin.ignore();
         if (inmenu == '1') {
